@@ -26,10 +26,10 @@ Swift 实现的条码扫描组件库
 # 例子
 直接下载代码，里面Example里面有详细的使用实例代码
 
-![alt tag](https://raw.githubusercontent.com/GTMYang/GTMBarcodeScanner/master/Demo/1.png)
-![alt tag](https://raw.githubusercontent.com/GTMYang/GTMBarcodeScanner/master/Demo/2.png)
-![alt tag](https://raw.githubusercontent.com/GTMYang/GTMBarcodeScanner/master/Demo/3.png)
-![alt tag](https://raw.githubusercontent.com/GTMYang/GTMBarcodeScanner/master/Demo/4.png)
+![alt tag](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/GTMBarcodeScanner/Demo/1.png)
+![alt tag](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/GTMBarcodeScanner/master/Demo/2.png)
+![alt tag](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/GTMBarcodeScanner/master/Demo/3.png)
+![alt tag](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/GTMBarcodeScanner/master/Demo/4.png)
 
 
 
