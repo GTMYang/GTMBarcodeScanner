@@ -181,6 +181,9 @@ public struct ScanViewStyle {
 
 ```
 
+## 参考
+本库参考了[swifScan](https://github.com/MxABC/swiftScan)
+
 
 #参与开源
 欢迎提交 issue 和 PR，大门永远向所有人敞开。
