@@ -15,26 +15,33 @@ public struct ScannerConfig {
     var isCaputureImage: Bool = true
     /// 主要控制调试信息的打印
     var isPrintLog: Bool = true
+    
     static var shared = ScannerConfig()
     
     init() { }
     
+    
+}
+
+public class ConfgiMaker {
     @discardableResult
-    public mutating func autoCloser(_ closer: Bool) -> ScannerConfig {
-        isAutoCloser = closer
+    public func autoCloser(_ closer: Bool) -> ConfgiMaker {
+        ScannerConfig.shared.isAutoCloser = closer
         return self
     }
     @discardableResult
-    public mutating func caputureImage(_ caputure: Bool) -> ScannerConfig {
-        isCaputureImage = caputure
+    public func caputureImage(_ caputure: Bool) -> ConfgiMaker {
+        ScannerConfig.shared.isCaputureImage = caputure
         return self
     }
     @discardableResult
-    public mutating func printLog(_ print: Bool) -> ScannerConfig {
-        isPrintLog = print
+    public func printLog(_ print: Bool) -> ConfgiMaker {
+        ScannerConfig.shared.isPrintLog = print
         return self
     }
 }
+
+
 protocol ConfigUser {
     var config: ScannerConfig { get }
 }

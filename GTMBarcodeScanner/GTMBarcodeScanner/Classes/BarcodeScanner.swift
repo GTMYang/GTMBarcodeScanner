@@ -181,8 +181,8 @@ public class BarcodeScanner: NSObject {
         return self
     }
     @discardableResult
-    public func config(_ handler: (_ config: ScannerConfig)-> Void) -> BarcodeScanner {
-        handler(config)
+    public func config(_ handler: (_ maker: ConfgiMaker)-> Void) -> BarcodeScanner {
+        handler(ConfgiMaker())
         return self
     }
 

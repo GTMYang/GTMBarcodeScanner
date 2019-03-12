@@ -23,23 +23,32 @@ class ViewController: UIViewController, GTMBarcodeCoreDelegate {
         self.view.backgroundColor = .black
         
         let scanner = BarcodeScanner.create(view: self.view)
+        
+        // 风格设置
         scanner.makeStyle { (make) in
             if uiType == "wechat" {
                 make.wechat()
+                self.title = "微信风格"
             }
             if uiType == "alipay" {
                 make.alipay()
+                self.title = "支付宝风格"
             }
             //custom
             if uiType == "custom" {
                 make.custom()
+                self.title = "自定义风格"
             }
-//            if uiType == "wechat" {
-//                make.wechat()
-//            }
+            
             make.soundSource(forName: "VoiceSearchOn", andType: "wav")
         }
-
+        
+        // 配置
+//        scanner.config { (make) in
+//            make.autoCloser(true)       // 自动拉近镜头
+//            make.caputureImage(true)    // 记录扫码的源图片
+//            make.printLog(true)         // 调试信息打印控制
+//        }
         
         scanner.delegate = self
         scanner.start()
