@@ -9,17 +9,17 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/GTMYang/GTMBarcodeScanner"
 
-  s.license      = { :type => "个人", :file => "LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "GTMYang" => "17757128523@163.com" }
 
 
   s.source       = { :git => "https://github.com/GTMYang/GTMBarcodeScanner.git", :tag => s.version }
-  s.source_files = "GTMBarcodeScanner/*.{h,swift}"
-  s.resources    = 'GTMBarcodeScanner/Resource/**/*'
+  s.source_files = "GTMBarcodeScanner/Classes/*.{h,swift}"
+  s.resources    = "GTMBarcodeScanner/Resource/**/*"
 
   s.ios.deployment_target = "8.0"
-#s.frameworks = "UIKit, AVFoundation, ImageIO"
 
+#s.frameworks = "UIKit, AVFoundation, ImageIO"
 #s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 
 end
