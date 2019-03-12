@@ -1,11 +1,11 @@
 
 <p align="center">
-<a href="https://github.com/GTMYang/GTMBarcodeScanner"><img src="https://raw.githubusercontent.com/GTMYang/GTMBarcodeScanner/master/logo.png"></a>
+<a href="https://github.com/GTMYang/GTMBarcodeScanner"><img src="https://github.com/GTMYang/GTMBarcodeScanner/blob/master/GTMBarcodeScanner/master/logo.png"></a>
 </p>
 
 <p align="center">
 <a href="https://github.com/GTMYang/GTMBarcodeScanner"><img src="https://img.shields.io/badge/platform-ios-lightgrey.svg"></a>
-<a href="https://github.com/GTMYang/GTMBarcodeScanner"><img src="https://img.shields.io/github/license/johnlui/Pitaya.svg?style=flat"></a>
+<!--<a href="https://github.com/GTMYang/GTMBarcodeScanner"><img src="https://img.shields.io/github/license/johnlui/Pitaya.svg?style=flat"></a>-->
 <a href="https://github.com/GTMYang/GTMBarcodeScanner"><img src="https://img.shields.io/badge/language-Swift%204-orange.svg"></a>
 <a href="https://travis-ci.org/GTMYang/GTMBarcodeScanner"><img src="https://img.shields.io/travis/johnlui/Pitaya.svg"></a>
 </p>
