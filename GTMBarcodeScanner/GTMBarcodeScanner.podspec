@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.resources    = 'GTMBarcodeScanner/Resource/**/*'
 
   s.ios.deployment_target = "8.0"
-  s.frameworks = "UIKit, AVFoundation, ImageIO"
+#s.frameworks = "UIKit, AVFoundation, ImageIO"
 
 #s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 
