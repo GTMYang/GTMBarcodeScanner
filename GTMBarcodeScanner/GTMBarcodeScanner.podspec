@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/GTMYang/GTMBarcodeScanner.git", :tag => s.version }
   s.source_files = "GTMBarcodeScanner/Classes/*.{h,swift}"
-  s.resources    = "GTMBarcodeScanner/Resource/**/*"
+  s.resources    = "GTMBarcodeScanner/Resource/*.{wav,png}"
 
   s.ios.deployment_target = "8.0"
 
