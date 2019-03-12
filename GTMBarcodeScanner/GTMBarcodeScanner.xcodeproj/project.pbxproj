@@ -108,7 +108,7 @@
 		26AE6C39223266260088D3C4 /* BarcodeScanner+ForPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BarcodeScanner+ForPhoto.swift"; sourceTree = "<group>"; };
 		26AE6C3C22326D180088D3C4 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		26ED4C67222D13BE0066F926 /* GTMBarcodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMBarcodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26ED4C6B222D13BE0066F926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../GTMBarcodeScanner/Info.plist; sourceTree = "<group>"; };
+		26ED4C6B222D13BE0066F926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26ED4C73222D147F0066F926 /* ScanPermissionUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanPermissionUtils.swift; sourceTree = "<group>"; };
 		26ED4C7D222D18460066F926 /* ScannerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerConfig.swift; sourceTree = "<group>"; };
 		26ED4C7F222D1A480066F926 /* ScanViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewStyle.swift; sourceTree = "<group>"; };
@@ -150,7 +150,6 @@
 			children = (
 				26AE6C02222FC5900088D3C4 /* qrcode_found.wav */,
 				26AE6C312230DF240088D3C4 /* VoiceSearchOn.wav */,
-				26ED4C6B222D13BE0066F926 /* Info.plist */,
 				26AE6C3B22326D040088D3C4 /* Extension */,
 				26AE6BE1222E6E7B0088D3C4 /* AppDelegate.swift */,
 				2654E70D2236359F001CA7DE /* RootViewController.swift */,
@@ -219,6 +218,7 @@
 		26ED4C69222D13BE0066F926 /* GTMBarcodeScanner */ = {
 			isa = PBXGroup;
 			children = (
+				26ED4C6B222D13BE0066F926 /* Info.plist */,
 				26AE6C042230B7650088D3C4 /* Resource */,
 				26ED4C72222D13F90066F926 /* Classes */,
 			);
