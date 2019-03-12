@@ -1,6 +1,6 @@
 
 <p align="center">
-<a href="https://github.com/GTMYang/GTMBarcodeScanner"><img src="https://github.com/GTMYang/GTMBarcodeScanner/blob/master/GTMBarcodeScanner/master/logo.png"></a>
+<a href="https://github.com/GTMYang/GTMBarcodeScanner"><img src="https://github.com/GTMYang/GTMBarcodeScanner/blob/master/GTMBarcodeScanner/Demo/logo.png"></a>
 </p>
 
 <p align="center">

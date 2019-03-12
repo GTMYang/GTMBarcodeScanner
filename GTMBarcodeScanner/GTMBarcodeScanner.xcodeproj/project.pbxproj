@@ -77,7 +77,7 @@
 		2654E711223789BD001CA7DE /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		2654E713223794F6001CA7DE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2654E71522379516001CA7DE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2654E71722379587001CA7DE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Example/Assets.xcassets/logo.imageset/logo.png; sourceTree = "<group>"; };
+		2654E71722379587001CA7DE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		2654E719223795A1001CA7DE /* GTMBarcodeScanner.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GTMBarcodeScanner.podspec; sourceTree = "<group>"; };
 		2654E71C22379CB2001CA7DE /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		2654E71D22379CB2001CA7DE /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
@@ -136,6 +136,7 @@
 		2654E71B2237961A001CA7DE /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				2654E71722379587001CA7DE /* logo.png */,
 				2654E71E22379CB2001CA7DE /* 1.png */,
 				2654E71C22379CB2001CA7DE /* 2.png */,
 				2654E71D22379CB2001CA7DE /* 3.png */,
@@ -197,7 +198,6 @@
 			children = (
 				2654E71B2237961A001CA7DE /* Demo */,
 				2654E719223795A1001CA7DE /* GTMBarcodeScanner.podspec */,
-				2654E71722379587001CA7DE /* logo.png */,
 				2654E71522379516001CA7DE /* LICENSE */,
 				2654E713223794F6001CA7DE /* README.md */,
 				26ED4C69222D13BE0066F926 /* GTMBarcodeScanner */,
