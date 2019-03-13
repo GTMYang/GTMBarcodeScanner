@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GTMBarcodeScanner"
-  s.version      = "1.0.1"
+  s.version      = "0.1"
   s.summary      = "Swift 实现的条码扫描组件库"
   s.swift_version= "4.2"
 
@@ -15,12 +15,13 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/GTMYang/GTMBarcodeScanner.git", :tag => s.version }
 
-  s.source_files = "GTMBarcodeScanner/Classes/*.{h,swift}"
-  s.resources    = 'GTMBarcodeScanner/Resource/**/*'
+  s.source_files = "GTMBarcodeScanner/Classes/*.swift"
+  s.resources    = 'GTMBarcodeScanner/Resource/*.{png, wav}'
 
   s.ios.deployment_target = "8.0"
 
-#s.frameworks = "UIKit, AVFoundation, ImageIO"
+  s.ios.framework  = 'UIKit'
+#s.frameworks = "AVFoundation, ImageIO"
 #s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 
 end

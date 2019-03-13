@@ -145,6 +145,14 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		2654E724223891E3001CA7DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26ED4C6B222D13BE0066F926 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		26AE6BE0222E6E7B0088D3C4 /* Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,9 +226,9 @@
 		26ED4C69222D13BE0066F926 /* GTMBarcodeScanner */ = {
 			isa = PBXGroup;
 			children = (
-				26ED4C6B222D13BE0066F926 /* Info.plist */,
 				26AE6C042230B7650088D3C4 /* Resource */,
 				26ED4C72222D13F90066F926 /* Classes */,
+				2654E724223891E3001CA7DE /* Supporting Files */,
 			);
 			path = GTMBarcodeScanner;
 			sourceTree = "<group>";
