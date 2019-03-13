@@ -223,16 +223,6 @@
 		26ED4C69222D13BE0066F926 /* GTMBarcodeScanner */ = {
 			isa = PBXGroup;
 			children = (
-				26AE6C042230B7650088D3C4 /* Resource */,
-				26ED4C72222D13F90066F926 /* Classes */,
-				2654E724223891E3001CA7DE /* Supporting Files */,
-			);
-			path = GTMBarcodeScanner;
-			sourceTree = "<group>";
-		};
-		26ED4C72222D13F90066F926 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
 				26AE6BF5222E73AF0088D3C4 /* BarcodeScanner.swift */,
 				26AE6C39223266260088D3C4 /* BarcodeScanner+ForPhoto.swift */,
 				2654E70F22363CC8001CA7DE /* BarcodeScanner+AutoCloser.swift */,
@@ -245,8 +235,10 @@
 				26AE6BD5222E65D40088D3C4 /* BarcodeUtils.swift */,
 				26AE6C212230B7EF0088D3C4 /* Bundle+Mine.swift */,
 				26AE6C2F2230BE2D0088D3C4 /* ScannerSound.swift */,
+				26AE6C042230B7650088D3C4 /* Resource */,
+				2654E724223891E3001CA7DE /* Supporting Files */,
 			);
-			path = Classes;
+			path = GTMBarcodeScanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
