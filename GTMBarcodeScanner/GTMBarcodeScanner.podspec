@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GTMBarcodeScanner"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "Swift 实现的条码扫描组件库"
   s.swift_version= "4.2"
 
