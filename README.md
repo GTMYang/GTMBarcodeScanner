@@ -1,6 +1,6 @@
 
 <p align="center">
-<a href="https://github.com/GTMYang/GTMBarcodeScanner"><img src="https://github.com/GTMYang/GTMBarcodeScanner/blob/master/GTMBarcodeScanner/Demo/logo.png"></a>
+<a href="https://github.com/GTMYang/GTMBarcodeScanner"><img src="https://github.com/GTMYang/GTMBarcodeScanner/blob/master/Demo/logo.png"></a>
 </p>
 
 <p align="center">
@@ -26,10 +26,10 @@ Swift 实现的条码扫描组件库
 # 例子
 直接下载代码，里面Example里面有详细的使用实例代码
 
-![alt tag](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/GTMBarcodeScanner/Demo/1.png)
-![alt tag](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/GTMBarcodeScanner/Demo/2.png)
-![alt tag](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/GTMBarcodeScanner/Demo/3.png)
-![alt tag](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/GTMBarcodeScanner/Demo/4.png)
+![alt tag](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/Demo/1.png)
+![alt tag](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/Demo/2.png)
+![alt tag](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/Demo/3.png)
+![alt tag](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/Demo/4.png)
 
 
 
