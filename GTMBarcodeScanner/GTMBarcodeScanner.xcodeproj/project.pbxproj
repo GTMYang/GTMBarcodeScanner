@@ -33,7 +33,6 @@
 		26AE6C222230B7EF0088D3C4 /* Bundle+Mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE6C212230B7EF0088D3C4 /* Bundle+Mine.swift */; };
 		26AE6C2B2230BCF80088D3C4 /* qrcode_scan_line_green@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26AE6C292230BCF80088D3C4 /* qrcode_scan_line_green@3x.png */; };
 		26AE6C2C2230BCF80088D3C4 /* qrcode_scan_line_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26AE6C2A2230BCF80088D3C4 /* qrcode_scan_line_green@2x.png */; };
-		26AE6C2E2230BDBE0088D3C4 /* qrcode_found.wav in Resources */ = {isa = PBXBuildFile; fileRef = 26AE6C2D2230BDBE0088D3C4 /* qrcode_found.wav */; };
 		26AE6C302230BE2D0088D3C4 /* ScannerSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE6C2F2230BE2D0088D3C4 /* ScannerSound.swift */; };
 		26AE6C322230DF250088D3C4 /* VoiceSearchOn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 26AE6C312230DF240088D3C4 /* VoiceSearchOn.wav */; };
 		26AE6C342230E1CF0088D3C4 /* ScanViewStyle+Demos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE6C332230E1CF0088D3C4 /* ScanViewStyle+Demos.swift */; };
@@ -99,7 +98,6 @@
 		26AE6C212230B7EF0088D3C4 /* Bundle+Mine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Mine.swift"; sourceTree = "<group>"; };
 		26AE6C292230BCF80088D3C4 /* qrcode_scan_line_green@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_line_green@3x.png"; sourceTree = "<group>"; };
 		26AE6C2A2230BCF80088D3C4 /* qrcode_scan_line_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_line_green@2x.png"; sourceTree = "<group>"; };
-		26AE6C2D2230BDBE0088D3C4 /* qrcode_found.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = qrcode_found.wav; path = Example/qrcode_found.wav; sourceTree = SOURCE_ROOT; };
 		26AE6C2F2230BE2D0088D3C4 /* ScannerSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerSound.swift; sourceTree = "<group>"; };
 		26AE6C312230DF240088D3C4 /* VoiceSearchOn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = VoiceSearchOn.wav; sourceTree = "<group>"; };
 		26AE6C332230E1CF0088D3C4 /* ScanViewStyle+Demos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScanViewStyle+Demos.swift"; sourceTree = "<group>"; };
@@ -181,7 +179,6 @@
 		26AE6C042230B7650088D3C4 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				26AE6C2D2230BDBE0088D3C4 /* qrcode_found.wav */,
 				26AE6C2A2230BCF80088D3C4 /* qrcode_scan_line_green@2x.png */,
 				26AE6C292230BCF80088D3C4 /* qrcode_scan_line_green@3x.png */,
 				26AE6C0B2230B7720088D3C4 /* qrcode_scan_net.png */,
@@ -367,7 +364,6 @@
 			files = (
 				26AE6C192230B7730088D3C4 /* qrcode_scan_net.png in Resources */,
 				26AE6C2C2230BCF80088D3C4 /* qrcode_scan_line_green@2x.png in Resources */,
-				26AE6C2E2230BDBE0088D3C4 /* qrcode_found.wav in Resources */,
 				26AE6C2B2230BCF80088D3C4 /* qrcode_scan_line_green@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
