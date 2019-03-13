@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/GTMYang/GTMBarcodeScanner"
 
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = { :type => "MINE", :file => "LICENSE" }
   s.author       = { "GTMYang" => "17757128523@163.com" }
 
 
