@@ -66,9 +66,9 @@ _**Note:** Make sure that all files in `GTMBarcodeScanner` included in Compile S
 
 # 版本
 
-## Vesrion 1.0
+## Vesrion 1.0.1
 
-This version requires Xcode 9.0 and Swift 4.
+This version requires Xcode 9.0 and Swift 4.2.
 
 # 使用帮助
 

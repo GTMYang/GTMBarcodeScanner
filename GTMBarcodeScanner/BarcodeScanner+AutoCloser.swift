@@ -23,8 +23,11 @@ extension BarcodeScanner {
         if coners.count > 2 {
             let lt = coners[0], rb = coners[2]
             let center = CGPoint(x: (lt.x + rb.x) / 2 , y: (lt.y + rb.y) / 2)
-            let scale = 130/(rb.x - lt.x)
-            if scale > 1 {
+           
+            let codeW = rb.x - lt.x
+            if 150 > codeW {
+                let scanAreaW = BarcodeScanner.scanView!.style.size.width
+                let scale = (scanAreaW - 30)/(rb.x - lt.x)
                 self.scaleVideo(scale, center)
             }
         }
