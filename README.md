@@ -19,8 +19,11 @@ Swift 实现的条码扫描组件库
 # 说明
 
 - 支持设置不同风格的扫码动效
-- 自动检测光线强度，控制闪光开关的显示隐藏
-- 条码太小时候自动拉近镜头效果
+- 支持光线强度检测
+- 支持条码太小时候自动拉近镜头效果
+- 支持自定义扫码音效
+- 支持识别图片中的条码
+- 支持生成带图片的条码
 
 
 # 例子
@@ -37,13 +40,13 @@ Swift 实现的条码扫描组件库
 
 ## Cocoapods方式
 
-Install Cocoapods if need be.
+Cocoapods 安装.
 
 ```bash
 $ gem install cocoapods
 ```
 
-Add `GTMBarcodeScanner` in your `Podfile`.
+添加  `GTMBarcodeScanner` 到你的 `Podfile` 文件.
 
 ```ruby
 use_frameworks!
@@ -51,7 +54,7 @@ use_frameworks!
 pod 'GTMBarcodeScanner'
 ```
 
-Then, run the following command.
+接着，执行下面的命令.
 
 ```bash
 $ pod install
@@ -60,19 +63,18 @@ $ pod install
 
 ## 常规方式
 
-Copy `GTMBarcodeScanner` folder to your project. That's it.
+拷贝 `GTMBarcodeScanner`  目录到你的项目. 
 
-_**Note:** Make sure that all files in `GTMBarcodeScanner` included in Compile Sources in Build Phases._
 
 # 版本
 
 ## Vesrion 1.0.1
 
-This version requires Xcode 9.0 and Swift 4.2.
+该版本需要 Xcode 9.0 和 Swift 4.2.
 
 # 使用帮助
 
-首先, import `GTMBarcodeScanner`.
+首先, 导入 `GTMBarcodeScanner`.
 
 ```swift
 import GTMBarcodeScanner
