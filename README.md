@@ -192,6 +192,6 @@ public struct ScanViewStyle {
 欢迎提交 issue 和 PR，大门永远向所有人敞开。
 
 ## 开源协议
-本项目遵循个人协议开源，具体请查看根目录下的 [LICENSE](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/GTMBarcodeScanner/LICENSE) 文件。
+本项目遵循个人协议开源，具体请查看根目录下的 [LICENSE](https://github.com/GTMYang/GTMBarcodeScanner/blob/master/LICENSE) 文件。
 
 
