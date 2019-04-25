@@ -26,6 +26,8 @@ class ScanPermissionUtils {
                     comletion(status == PHAuthorizationStatus.authorized ? true:false)
                 }
             })
+        @unknown default:
+            comletion(false)
         }
     }
     
@@ -50,6 +52,8 @@ class ScanPermissionUtils {
                     comletion(granted)
                 }
             })
+        @unknown default:
+            comletion(false)
         }
     }
     
