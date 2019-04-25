@@ -68,9 +68,9 @@ $ pod install
 
 # 版本
 
-## Vesrion 1.0.1
+## Vesrion 1.1
 
-该版本需要 Xcode 9.0 和 Swift 4.2.
+该版本需要 Xcode 10.2.1 和 Swift 5.
 
 # 使用帮助
 
